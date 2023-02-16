@@ -9,6 +9,7 @@ namespace WorkflowConsoleApplication1
     {
         static void Main(string[] args)
         {
+            //test
             Activity workflow1 = new Workflow1();
             WorkflowInvoker.Invoke(workflow1);
         }
